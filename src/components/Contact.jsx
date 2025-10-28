@@ -21,7 +21,7 @@ export default function Contact() {
       const subject = encodeURIComponent(`Portfolio contact from ${form.name}`);
       const body = encodeURIComponent(`${form.message}\n\n— ${form.name} (${form.email})`);
       window.location.href = `mailto:your.email@example.com?subject=${subject}&body=${body}`;
-      setToast("Opening email client...");
+      setToast("Opening email client.");
       setTimeout(() => setToast(null), 2000);
     }
   }
