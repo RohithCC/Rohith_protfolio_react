@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* optional custom styles */
+html { scroll-behavior: smooth; }
+
+/* test helper — temporarily add this to confirm Tailwind is present */
+.__tailwind_test { background: hotpink !important; }
